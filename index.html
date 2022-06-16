@@ -76,6 +76,64 @@
               <use href="./images/symbol-defs.svg#icon-modalbtn"></use>
             </svg>
           </button>
+          <!-- <div class="modal-box"> -->
+          <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+          <form class="modal-form">
+            <div class="modal-item">
+              <label for="name" class="modal-label" autofocus>Имя</label>
+              <div class="input-wrap">
+                <input
+                  type="text"
+                  class="modal-input"
+                  name="user-name"
+                  id="name"
+                />
+                <svg class="modal-icon" width="12" height="12">
+                  <use href="./images/symbol-defs.svg#icon-person"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="modal-item">
+              <label for="tel" class="modal-label">Телефон</label>
+              <div class="input-wrap">
+                <input type="tel" class="modal-input" name="tel" id="tel" />
+                <svg class="modal-icon" width="13" height="13">
+                  <use href="./images/symbol-defs.svg#icon-phone"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="modal-item">
+              <label for="mail" class="modal-label">Почта</label>
+              <div class="input-wrap">
+                <input
+                  type="email"
+                  class="modal-input"
+                  name="user-email"
+                  id="mail"
+                />
+                <svg class="modal-icon" width="15" height="12">
+                  <use href="./images/symbol-defs.svg#icon-email"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="modal-field">
+              <label for="user-text" class="modal-label">Ваш комментарий</label>
+              <textarea
+                name="user-text"
+                id="user-text"
+                class="modal-text"
+                placeholder="Введите текст"
+              ></textarea>
+            </div>
+
+            <label class="checkbox-text" for="policy">
+              <input class="input-check" type="checkbox" id="policy" />
+              <span class="icon-check"></span>
+              Соглашаюсь с рассылкой и принимаю
+              <a class="checkbox-link" href=""> Условия договора </a></label
+            >
+            <button class="main-modal-btn" type="submit">Отправить</button>
+          </form>
         </div>
       </div>
 
